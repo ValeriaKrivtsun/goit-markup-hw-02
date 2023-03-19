@@ -36,20 +36,20 @@ ul {
 
 /*Header*/
 .header-logo {
-   color: #4D5AE5; 
-
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    display: flex;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
+
+
 .header-logo-portfolio {
+    font-family: 'Raleway',
+        sans-serif;;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -59,20 +59,6 @@ ul {
 .header-logo-portfolio:hover,
 .header-logo-portfolio:focus {
      color: #404bbf;
-}
-
-
-
-
-
-
-/* 11111111 */
-.header-logo {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 .logo-header {
