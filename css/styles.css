@@ -33,6 +33,7 @@ ul {
 }
 
 
+
 /*Header*/
 .header-logo {
    color: #4D5AE5; 
@@ -47,6 +48,23 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.header-logo-portfolio {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+}
+.header-logo-portfolio:hover,
+.header-logo-portfolio:focus {
+     color: #404bbf;
+}
+
+
+
+
+
 
 /* 11111111 */
 .header-logo {
@@ -88,6 +106,7 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-decoration: none;
+        font-style: normal;
 }
 .header-contact-mail:hover,
 .header-contact-mail:focus {
@@ -128,6 +147,9 @@ ul {
     color: #2e2f42;
 }
 
+.header-contact-item {
+    list-style: none;
+}
 
 
 
