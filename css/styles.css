@@ -5,9 +5,14 @@
 /* акцент: background: #4D5AE5; */
 /* цвет текста в футере: #F4F4FD; */
 
+:root {
+    --primary-text-color--: #434455;
+    --title-text-color--: #2E2F42;
+    --accent-color--: #4D5AE5;
+}
 
 body {
-    background-color: var(--primary-white-color--);
+    background-color: #FFFFFF;
     color: #434455;
 
     font-family: "Roboto",
@@ -48,7 +53,7 @@ span {
     text-decoration: none;
 }
 
-.header .header-link {
+.header-link {
     color: #2E2F42;
 
         font-family: 'Roboto', sans-serif;
@@ -61,7 +66,7 @@ span {
 }
 .header .header-link:hover,
 .header .header-link:focus {
-     color: #4D5AE5;
+     color: #404bbf;
 }
 
 .header-contact-mail {
@@ -75,6 +80,11 @@ span {
         letter-spacing: 0.02em;
         text-decoration: none;
 }
+.header-contact-mail:hover,
+.header-contact-mail:focus {
+    color: #404bbf;
+}
+
 
 .header-contact-phone {
     color: #434455;
@@ -86,6 +96,15 @@ span {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-decoration: none;
+}
+.header-contact-phone:hover,
+.header-contact-phone:focus {
+    color: #404bbf;
+}
+
+.header-contact {
+    font-style: normal;
+    list-style: none;
 }
 
 
@@ -201,14 +220,24 @@ span {
     line-height: 1.5;
     display: flex;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .filter-button-text:hover,
 .filter-button-text:focus {
     background: #404BBF;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* gallery-list */
+.gallery-list {
+    list-style: none;
+}
+
+.gallery-item {
+    list-style: none;
+}
+
 .gallery-item-text {
     color: #434455;
     font-family: 'Roboto',
@@ -229,6 +258,10 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.link {
+    text-decoration: none;
 }
 
 
@@ -254,7 +287,7 @@ span {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -269,7 +302,7 @@ span {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
