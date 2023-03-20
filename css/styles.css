@@ -28,9 +28,6 @@ body {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
 
 
 
@@ -55,6 +52,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    text-transform: uppercase;
 }
 .header-logo-portfolio:hover,
 .header-logo-portfolio:focus {
@@ -99,11 +97,10 @@ ul {
     color: #404bbf;
 }
 
-
 .header-contact-phone {
     color: #434455;
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -115,6 +112,7 @@ ul {
 .header-contact-phone:focus {
     color: #404bbf;
 }
+
 
 .header-contact {
     font-style: normal;
