@@ -43,7 +43,6 @@ body {
 }
 
 
-
 .header-logo-portfolio {
     font-family: 'Raleway',
         sans-serif;;
@@ -174,10 +173,6 @@ body {
 
 
 /* Section feature */
-.feature {
-    background: #E5E5E5;
-}
-
 .feature-tytle {
        color: #2E2F42;
        font-family: 'Roboto',
@@ -254,11 +249,9 @@ body {
 }
 
 
-/* !!!!!!! */
 .team-blok {
     background-color: #FFFFFF;
 }
-
 
 
 
